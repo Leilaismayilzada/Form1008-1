@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -12,125 +12,128 @@
     <header></header>
     <main>
         <section>
-            <div class="main">
-                <div class="head">
-                    <h3>Profile Information</h3>
+            <div class="container">
+                <div class="container1">
+                    <h1>Profile Information</h1>
                 </div>
-                <div class="form">
-                    <div class="formfirst">
-                        <div class="form1">
-                            <label> Agency Name</label>
 
+                <div class="main">
+                    <div class="term1">
+                        <div>
+                            <p>Agency Name</p>
                             <br>
                             <input type="text">
                         </div>
-                        <div class="form2">
-                            <label> Agency Type</label>
+                        <br>
+                        <div>
+                            <p>Address</p>
                             <br>
-                            <input type="text" placeholder="AGENT">
+                            <input type="text">
                         </div>
-                        <div class="form3">
-                            <label>Password</label>
+                        <br>
+                        <div>
+                            <p>Toll-Free Number</p>
                             <br>
-                            <input type="password">
+                            <input type="text">
                         </div>
+                        <br>
+                        <div class="sch1">
+                            <p>Company Name</p>
+                            <br>
+                            <div class="sch"> <input type="text" />
+
+                            </div>
+
+                        </div><br>
                     </div>
-                    <div class="formsecond">
-                        <div class="form4">
-                            <label>Address</label>
+                    <div class="term2">
+                        <div>
+                            <p>Agent Type</p>
+                            <br>
+                            <select id="agency-type" required>
+                                <option value="agent">Agent</option>
+                                <option value="broker">Broker</option>
+                            </select>
 
-                            <input type="text">
+                        </div><br>
+                        <div class="location">
 
-                        </div>
-                        <div class="form5">
-                            <div class="form51">
-                                <label> City</label>
+                            <div class="loc1">
+                                <p>City</p>
                                 <br>
                                 <input type="text">
                             </div>
-                            <div class="form52">
-                                <label>State</label>
-                                <br>
+                            <div class="loc2">
+                                <p>State</p><br>
                                 <input type="text">
                             </div>
 
-                        </div>
-                        <div class="form6">
-                            <label> Phone Number</label>
 
-                            <input type="text">
-                        </div>
-                    </div>
-                    <div class="fomrthird">
-                        <div class="form7">
-                            <label> Toll-Free Number</label>
-                            <br>
-                            <input type="text">
-                        </div>
-                        <div class="form8">
-                            <label>Email ID</label>
-                            <br>
+                        </div><br>
+                        <div>
+                            <p>Email ID</p><br>
                             <input type="email">
-                        </div>
-                        <div class="form9">
-                            <label>Website</label>
-                            <br>
-                            <input type="text">
-                        </div>
-                    </div>
-                    <div class="formfourth">
-                        <div class="form10">
-                            <label>Company Name</label>
-                            <br>
-                            <input type="text">
-
-                        </div>
-                        <div class="form11">
-
-                            <h4>Office Space</h4>
-                            <div class="option">
-
-                                <div class="option1">
-                                    <div class="option3">
-                                        <input class="check1" type="radio" id="check" name="Office">
-                                        <label class="check11" for="check"> Owned</label>
+                        </div><br>
+                        <div>
+                            <div>
+                                <p>Office Space</p><br>
+                            </div>
+                            <div class="raund">
+                                <div class="round1">
+                                    <div>
+                                        <input type="radio" id="round1" name="round1"> <label>Owned</label>
                                     </div>
-
-
-                                    <div class="option2">
-                                        <input class="check2" type="radio" id="check" name="Office">
-                                        <label class="check22" for="check"> Rental</label>
+                                    <div>
+                                        <input type="radio" id="round1" name="round1"> <label>Rental</label>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="form12">
-                            <label>Company Logo</label>
-                            <br>
-                            <input multiple type="file">
+
+                    </div>
+                    <div class="term3">
+                        <div>
+                            <p> Password</p><br>
+                            <input type="password">
+                        </div><br>
+                        <div>
+                            <p>Phone Number</p><br>
+                            <input type="number">
+                        </div><br>
+                        <div>
+                            <p>Website</p><br>
+                            <input type="text">
+                        </div><br>
+                        <div>
+                            <p>Company Logo</p><br>
+                            <div class="file">
+                                <input multiple type="file">
+                            </div>
                         </div>
 
                     </div>
                 </div>
-                <p>In order to process your registration, we ask you to provide the following information.Please note
+
+
+                <p class="pend">In order to process your registration, we ask you to provide the following
+                    information.Please note
                     that all fields marked with an asterisk(*) are required.</p>
-                <div class="end">
-                    <button>CONTINUE</button>
+                <div class="ends">
+                    <div class="end">
+                        <button>Cancel</button>
+
+                    </div>
+                    <div class="end1">
+                        <button>CONTINUE <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
 
                 </div>
-                <div class="end1"><button>CANCEL</button></div>
+            </div>
+
         </section>
-
-
-
-
-
-
-
-
     </main>
     <footer></footer>
-
 </body>
 
 </html>
